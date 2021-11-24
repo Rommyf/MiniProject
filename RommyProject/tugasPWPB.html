@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>SPORT Shop</title>
+
+    <link rel="shortcut icon" href="sport8.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        body {
+            color: black !important;
+        }
+        
+        .container {
+            width: 75%;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background-color: #fff;
+            min-height: 50px;
+            text-align: center;
+        }
+        
+        .logo img {
+            width: 200px;
+        }
+        
+        .menu ul {
+            padding: 0;
+        }
+        
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+        }
+        
+        .menu ul a {
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #ccc;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            display: none;
+            z-index: 10;
+        }
+        
+        .menu ul li:hover ul.submenu {
+            display: block;
+        }
+        
+        ul.submenu li {
+            display: block;
+        }
+        
+        ul.submenu a {
+            display: block;
+            padding: 5px 10px;
+        }
+        
+        .content {
+            background-color: #ddd;
+            min-height: 500px;
+            overflow: auto;
+        }
+        
+        .thumbnail {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            width: 275px;
+            margin: 10px;
+            float: left;
+        }
+        
+        .jumbotron {
+            font-family: "Dancing Script";
+            font-size: 1.5em;
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            background-color: #aaa;
+            background-image: url(sport3.jpg);
+            background-size: cover;
+            position: relative;
+        }
+        
+        .jumbotron h2,
+        .jumbotron p {
+            position: relative;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.4;
+        }
+        
+        .footer {
+            background-color: #ccc;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .footer .table {
+            width: 100%;
+            text-align: left;
+        }
+        
+        .footer .tabel .td-cell {
+            padding-left: 10px !important;
+            text-align: justify;
+            width: 65%;
+            height: 0%;
+        }
+        
+        .footer .tabel .td-cell2 {
+            padding-left: 10px;
+            text-align: justify;
+            width: 25%;
+            height: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="sport6.jpg" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">About</a>
+                        <ul class="submenu">
+                            <li><a href="#">CV</a></li>
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="kontak.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+            <div class="overlay"></div>
+            <h2>Welcome to My Homepage</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum necessitatibus tempora consequuntur cupiditate in. Tenetur fugiat atque quo sapiente odio eaque suscipit rem obcaecati doloremque, iure, repudiandae eos magnam laboriosam assumenda
+                temporibus debitis hic. Architecto nostrum, sed suscipit iure accusamus dolorum perspiciatis laudantium veritatis voluptate quae amet delectus maiores eaque enim perferendis corrupti nulla, eos quis rerum aperiam placeat distinctio. Suscipit,
+                quaerat molestiae qui quas dolor nihil sit voluptatem magnam atque ducimus labore doloremque quia quidem nesciunt voluptate? Omnis, porro eveniet voluptatibus incidunt pariatur quos a commodi ad, aut voluptates praesentium suscipit dignissimos
+                quae obcaecati perferendis ullam, laudantium temporibus cumque.</p>
+        </div>
+
+        <div class="content">
+            <h2>My Products</h2>
+
+            <div class="thumbnail">
+                <img src="contoh1.jpg" alt="" width="250px" height="250px">
+                <h2>Sepatu Sport</h2>
+                <p>RP. 250.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="contoh2.jpg_.webp" alt="" width="250px" height="250px">
+                <h2>Jaket Windbreaker</h2>
+                <p>RP. 450.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="contoh3.jpeg" alt="" width="250px" height="250px">
+                <h2>Raket</h2>
+                <p>RP. 125.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="contoh4.jpeg" alt="" width="250px" height="250px">
+                <h2>Shuttelcock</h2>
+                <p>RP. 50.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="contoh6.jpg" alt="" width="250px" height="250px">
+                <h2>Bola Futsal</h2>
+                <p>RP. 100.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="contoh7.jpg" alt="" width="250px" height="250px">
+                <h2>Bola Basket</h2>
+                <p>RP. 110.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="contoh8.jpg" alt="" width="250px" height="250px">
+                <h2>Bola Voli</h2>
+                <p>RP. 110.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="contoh9.jpg" alt="" width="250px" height="250px">
+                <h2>Baseball set</h2>
+                <p>RP. 550.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+
+            <div class="thumbnail">
+                <img src="conto10.webp" alt="" width="250px" height="250px">
+                <h2>Lompat Tali</h2>
+                <p>RP. 50.000</p>
+                <a href="tugasPWPB1.html"><button>Beli</button></a>
+            </div>
+        </div>
+        <div class="footer">
+            <table class="tabel">
+                <thead>
+                    <tr>
+                        <th>Contact</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2" id="td-row" style="width: 10%; height: 0%;">
+                            <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer"><img src="insta.png" alt="Instagram" width="25px" height="25px"></a> <br>
+                            <a href="https://id-id.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="facebook.png" alt="Facebook" width="25px" height="25px"></a> <br>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"><img src="wa.png" alt="WhatsApp" width="25px" height="25px"></a> <br>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><img src="twitter.png" alt="Twitter" width="25px" height="25px"></a> <br>
+                            <a href="http://" target="_blank" rel="noopener noreferrer"><img src="mail.png" alt="Email" width="25px" height="25px"></a> <br>
+                        </td>
+                        <td rowspan="2" class="td-cell">
+                            <!-- content -->
+                        </td>
+                        <td rowspan="2" class="td-cell2">
+                            <!-- content -->
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&copy;Copyright 2021 My Webpage</p>
+        </div>
+    </div>
+
+    <script>
+        alert("Selamat Datang di Website Sport shop");
+    </script>
+</body>
+
+</html>

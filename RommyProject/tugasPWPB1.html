@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Komfirmasi Pembelian</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="sport8.png">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="alert alert-primary text-center mt-3">Konfirmasi Pembelian Sport Shop</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nama">Nama lengkap:</label>
+                <input type="text" name="" id="nama" class="form-control" placeholder="Masukana nama lengkap Anda">
+            </div>
+            <div class="form-group">
+                <label for="mail">Email:</label>
+                <input type="email" class="form-control" placeholder="Masukan E-mail Anda" id="mail">
+            </div>
+            <div class="form-group">
+                <label for="pas">Password:</label>
+                <input type="Password" class="form-control" placeholder="Masukan Password Anda" id="pas">
+                <small>Password harus terdiri dari angka dan huruf dan minimal 6 karakter</small>
+            </div>
+            <!-- <div class="form-group">
+                <label for="nik">NIK:</label>
+                <input type="text" name="angka" id="nik" class="form-control" placeholder="Input NIK Anda" onkeypress="return hanyaAngka(event)">
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="tempatLahir">Tempat Lahir:</label>
+                        <input type="text" name="" id="tempatLahir" class="form-control" placeholder="Masukan tempat lahir Anda">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="tanggalLahir">Tanggal Lahir:</label>
+                        <input type="date" name="" id="tanggalLahir" class="form-control">
+                    </div>
+                </div>
+            </div> -->
+            <div class="form-group">
+                <label for="">Jenis Kelamin:</label> <br>
+                <div class="form-check-inline">
+                    <input type="radio" class="form-check-input" name="jk" id="JK" checked="">
+                    <label for="">Laki-laki</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" name="jk" id="JK">
+                    <label for="">Perempuan</label>
+                </div>
+            </div>
+            <!-- <div class="form-group">
+                <label for="kesatuan">Kesatuan:</label>
+                <select name="" id="" class="form-control">
+                    <option value="">TNI AD</option>
+                    <option value="">TNI AU</option>
+                    <option value="">TNI AL</option>
+                </select>
+            </div> -->
+            <div class="form-group">
+                <label for="jenisBarang">Jenis Produk: </label>
+                <select name="" id="" class="form-control">
+                    <option value="">Sepatu Sport</option>
+                    <option value="">Jaket Windbreaker</option>
+                    <option value="">Raket</option>
+                    <option value="">Shuttelcock</option>
+                    <option value="">Bola Futsal</option>
+                    <option value="">Bola Basket</option>
+                    <option value="">Bola Voli</option>
+                    <option value="">Baseball set</option>
+                    <option value="">Lompat Tali</option>
+                </select>
+            </div>
+            <!-- <div class="form-group">
+                <label for="hobi">Hobi:</label>
+                <div class="form-check form">
+                    <input type="checkbox" name="" id="" class="form-check-input">Sepak Bola <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Berpergian <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Membuat Vlog <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Musik <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Berpetualang <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Dan Lain-Lain <br>
+                </div>
+            </div> -->
+            <div class="form-group">
+                <label for="size">Ukuran:</label>
+                <div class="form-check form">
+                    <label for="shoes">Ukuran sepatu</label> <br>
+                    <input type="checkbox" name="shoess" id="shoes" class="form-check-input">39 cm <br>
+                    <input type="checkbox" name="shoess" id="shoes" class="form-check-input">40 cm <br>
+                    <input type="checkbox" name="shoess" id="shoes" class="form-check-input">42 cm <br>
+                    <label for="">Ukuran jaket</label> <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Small <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Medium <br>
+                    <input type="checkbox" name="" id="" class="form-check-input">Larger <br>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat:</label>
+                <textarea class="form-control" id="alamat" rows="5"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="kodePos">Kode Pos:</label>
+                <input type="text" name="angka" id="kodePos" class="form-control" placeholder="Kode Pos" onkeypress="return hanyaAngka(event)">
+            </div>
+            <div class="form-group">
+                <label for="">Upload Foto Produk:</label>
+                <input type="file" name="" class="form-control-file">
+                <small>Upload file dengan ukuran maksimal 10MB, untuk menyesuaikan dengan produk yang ingin di beli</small>
+            </div>
+            <button type="submit" class="btn btn-primary">SIMPAN</button>
+            <button type="reset" class="btn btn-danger">RESET</button>
+        </form>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        function hanyaAngka(event) {
+            var angka = (event.which) ? event.which : event.keyCode
+            if (angka != 46 && angka > 31 && (angka < 48 || angka > 57))
+                return false;
+            return true;
+        }
+    </script>
+</body>
+
+</html>
